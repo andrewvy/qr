@@ -24,6 +24,7 @@ defmodule QR.MixProject do
   defp deps do
     [
       {:rustler, "~> 0.18.0"},
+      {:benchee, "~> 0.11", only: :dev},
     ]
   end
 
